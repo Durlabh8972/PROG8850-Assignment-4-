@@ -128,5 +128,5 @@ See `Answer_Question1.pdf` or `Answer_Question1.docx` included in the submission
 ## 👨‍💻 Author
 
 **Durlabh Tilavat**  
-Email: Dtilavat8972@conestogac.on.ca 
-Course: Database Automation (Conestoga College)
+-Email: Dtilavat8972@conestogac.on.ca 
+-Course: Database Automation (Conestoga College)
