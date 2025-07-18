@@ -1,0 +1,12 @@
+---
+- name: Seed data and stop MySQL
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Create migration file
+      shell: echo "INSERT INTO subscribers (email, subscription_date) VALUES ('test@example.com', NOW());" > /opt/flyway/sql/V2__seed_data.sql
+
+    - name: Stop MySQL service
+      service:
+        name: mysql
+        state: stopped
